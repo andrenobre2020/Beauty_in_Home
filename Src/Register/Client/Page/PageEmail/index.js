@@ -5,11 +5,11 @@ import MiddleEmail from "./Middle";
 MiddleEmail
 
 
-export default function Email(){
+export default function Email({route}){
     return(
         <>
         <HeaderEmail />
-        <MiddleEmail />
+        <MiddleEmail  />
         </>
     )
 }
